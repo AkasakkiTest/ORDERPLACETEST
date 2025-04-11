@@ -1,0 +1,25 @@
+{
+  "name": "happy_path",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "regression" : "npx playwright test --retries=2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "playwright": "^1.49.1",
+    "playwright-core": "^1.49.1",
+    "undici-types": "^6.20.0"
+  },
+  "description": ""
+}
